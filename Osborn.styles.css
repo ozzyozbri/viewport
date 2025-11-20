@@ -144,9 +144,11 @@ footer .icon{
     /* --------------- BEGIN USER PREFERS REDUCED MOTION QUERY --------------- */
     @-webkit-keyframes icon-animation {
         0% { font-variation-settings: "TIME" 1; }
+        50% { font-variation-settings: "TIME" 50; }
     }
     @keyframes icon-animation {
         0% { font-variation-settings: "TIME" 1; }
+        50% { font-variation-settings: "TIME" 50; }
     }
 /* --------------- END USER PREFERS REDUCED MOTION QUERY --------------- */
 }
